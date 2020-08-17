@@ -1,0 +1,115 @@
+#page-landing #container{
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-primary);
+}
+
+#page-landing #container{
+    color: var(--color-text-in-primary)
+}
+
+.logo-container img{
+    height: 10rem;
+}
+
+.logo-container{
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-bottom: 3.2rem;
+}
+
+.logo-container h2{
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+    margin-top: 0.8rem;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0 ;
+}
+
+.buttons-container a{
+    width: 15rem;
+    height: 5rem;
+    
+    border-radius: 0.8rem;
+    margin-right: 1.6rem;
+
+    font: 700 2.4rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: background 0.25s;
+
+    color: var(--color-button-text);
+}
+
+.buttons-container a img{
+    width: 4rem;
+    margin-right: 2.4rem;
+}
+
+.buttons-container a.convert{
+    background: var(--color-primary-lighter);
+}
+
+.buttons-container a.convert:hover{ /*utiliza o hover como propriedade apenas de quando o mouse está sob o objeto*/
+    background: var(--color-primary-light);
+}
+
+
+@media(max-widht:699px){
+    :root{
+        font-size: 40%;
+    }
+}
+
+@media(min-width: 700px){
+    #page-landing #container{
+        max-width: 1100px;
+        /*
+        display: grid;
+        grid-template-columns:  2fr 1fr 2fr;
+        grid-template-rows: 350px 1fr;
+        grid-template-areas: 
+        "proffy image image"
+        "button button texting" ;*/
+        column-gap: 87px;
+        row-gap: 86px;
+    }
+
+    .logo-container{
+        grid-area: proffy;
+        text-align: initial;
+        align-self: center;
+    }
+
+    .logo-container img{
+        height: 127px;
+        margin: 0;
+    }
+    .hero-image{
+        grid-area: image;
+        height: 350px;
+    }
+    .buttons-container{
+        grid-area: button;
+        justify-content: flex-start;
+        margin: 0em;
+        
+    }
+    .total-connections{
+        grid-area: texting;
+        justify-self: end;
+        font-size: 1.2rem;
+    }
+
+
+}

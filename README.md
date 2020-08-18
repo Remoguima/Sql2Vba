@@ -1,4 +1,3 @@
 # Sql2Vba
 
-
-testando webhook do discord
+Simple SPA to format SQL queryes to a VBA readable single string

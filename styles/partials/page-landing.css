@@ -85,7 +85,8 @@
         row-gap: 86px;
     }
 
-    .output-fieldset .textarea-block{
+    #imput-fieldset .textarea-block #imput ,
+    #output-fieldset .textarea-block #imput{
          height: 100%;
          width: 100%;
     }
@@ -101,5 +102,12 @@
         font-size: 1.2rem;
     }
 
+    #fieldset .textarea-block #imput,
+    #fieldset .textarea-block #output
+    {
+        width: 100%;
+   }
 
 }
+
+

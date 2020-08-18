@@ -76,14 +76,7 @@
     width: 100%;
 }
 
-#page-landing #container .ads{
-    height: 3rem;
-    width: 93%;
-    border: 2px solid azure;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    
-}
+
 
 @media(max-widht:699px){
     :root{
@@ -109,24 +102,11 @@
         justify-content: center;
         margin: 1rem;
     }
-    .total-connections{
-        grid-area: texting;
-        justify-self: end;
-        font-size: 1.2rem;
-    }
 
     #fieldset .textarea-block #imput,
     #fieldset .textarea-block #output
     {
         width: 100%;
-   }
-
-   #page-landing #container .ads{
-       height: 10rem;
-       width: 70rem;
-       border: 2px solid azure;
-       margin-top: 5rem;
-       margin-left: 40rem;
    }
 
 }

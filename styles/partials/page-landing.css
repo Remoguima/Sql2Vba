@@ -91,6 +91,10 @@
         row-gap: 86px;
     }
 
+    #imput-fieldset{
+        height: 30rem;
+    }
+
     #imput-fieldset .textarea-block #imput ,
     #output-fieldset .textarea-block #imput{
          height: 100%;

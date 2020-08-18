@@ -85,25 +85,15 @@
         row-gap: 86px;
     }
 
-    .logo-container{
-        grid-area: proffy;
-        text-align: initial;
-        align-self: center;
+    .output-fieldset .textarea-block{
+         height: 100%;
+         width: 100%;
     }
 
-    .logo-container img{
-        height: 127px;
-        margin: 0;
-    }
-    .hero-image{
-        grid-area: image;
-        height: 350px;
-    }
     .buttons-container{
         grid-area: button;
-        justify-content: flex-start;
-        margin: 0em;
-        
+        justify-content: center;
+        margin: 1rem;
     }
     .total-connections{
         grid-area: texting;

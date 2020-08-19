@@ -9,8 +9,8 @@
     color: var(--color-text-in-primary)
 }
 
-#imput-fieldset .textarea-block #imput ,
-#output-fieldset .textarea-block #imput{
+#imput-fieldset .textarea-block textarea#raw ,
+#output-fieldset .textarea-block textarea#converted{
      height: 100%;
      width: 100%;
 }
@@ -39,7 +39,7 @@
     margin: 1rem 1rem 1rem 1rem;
 }
 
-.buttons-container a{
+.buttons-container .format{
     width: 15rem;
     height: 5rem;
     
@@ -58,20 +58,21 @@
     color: var(--color-button-text);
 }
 
+
 .buttons-container a img{
     width: 4rem;
     margin-right: 2.4rem;
 }
 
-.buttons-container a.convert{
+.buttons-container .format{
     background: var(--color-primary-lighter);
 }
 
-.buttons-container a.convert:hover{ /*utiliza o hover como propriedade apenas de quando o mouse está sob o objeto*/
+.buttons-container .format:hover{ /*utiliza o hover como propriedade apenas de quando o mouse está sob o objeto*/
     background: var(--color-primary-light);
 }
-#fieldset .textarea-block #imput,
-#fieldset .textarea-block #output
+#fieldset .textarea-block textarea#raw,
+#fieldset .textarea-block textarea#converted
 {
     width: 100%;
 }
@@ -95,8 +96,8 @@
         height: 30rem;
     }
 
-    #imput-fieldset .textarea-block #imput ,
-    #output-fieldset .textarea-block #imput{
+    #imput-fieldset .textarea-block textarea#raw ,
+    #output-fieldset .textarea-block textarea#converted{
          height: 100%;
          width: 100%;
     }
@@ -107,8 +108,8 @@
         margin: 1rem;
     }
 
-    #fieldset .textarea-block #imput,
-    #fieldset .textarea-block #output
+    #fieldset .textarea-block textarea#raw,
+    #fieldset .textarea-block textarea#converted
     {
         width: 100%;
    }

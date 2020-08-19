@@ -20,13 +20,13 @@
                     <legend>Original Query</legend>
                     
                     <div class="textarea-block">
-                        <textarea name="imput" id="imput"  rows="10"></textarea>
+                        <textarea name="imput" id="raw"  rows="10"></textarea>
                     </div>
                 </fieldset>
             </div>
 
             <div class="buttons-container">
-                <a class="convert" >Format</a>
+                <button button onclick="changeContent()" type="submit" class="format" >Format</button>
             </div>
             
             <div class="output-fieldset">
@@ -34,16 +34,14 @@
                     <legend>Formatted Query</legend>
                     
                     <div class="textarea-block">
-                        <textarea name="imput" id="imput" rows="10"></textarea>
+                        <textarea name="imput" id="converted" rows="10"></textarea>
                     </div>
                 </fieldset>
             </div>
 
 
         </div>
-        <script> //javascript vai aqui
-        
-
-        </script>
+        <script src="/scripts/format.js"></script>
+          
     </body>
 </html>

@@ -13,39 +13,48 @@
 
     <body id="page-landing">
         <div id="container">
-            <div class="logo-container">
-                <h2> SQL - Query formatter for VBA </h2>
-            </div>
-            <div class="imput-fieldset">
-                <fieldset id="fieldset">
-                    <legend> Original Query</legend>
-                    
-                    <div class="textarea-block">
-                        <textarea name="imput" id="raw"  rows="6"></textarea>
+                <div class="logo-container">
+                        <h2> SQL - Query formatter for VBA </h2>
                     </div>
-                </fieldset>
+                    <div class="imput-fieldset">
+                        <fieldset id="fieldset">
+                            <legend> Original Query</legend>
+                            
+                            <div class="textarea-block">
+                                <textarea name="imput" id="raw"  rows="6"></textarea>
+                            </div>
+                        </fieldset>
+                </div>
+
+                <div class="buttons-container">
+                    <button button onclick="changeContent()" type="submit" class="format" > Format</button>
+                    <button button onclick="clearContent()" type="submit" class="clear" > Clear</button>
+                    <button button onclick="copyToClipboard()" type="submit" class="copy" > Copy</button>
+                </div>
+                
+                <div class="output-fieldset">
+                    <fieldset id="fieldset">
+                        <legend> Formatted Query</legend>
+                        
+                        <div class="textarea-block">
+                            <textarea name="imput" id="converted" rows="6" readonly></textarea>
+                        </div>
+                    </fieldset>
+                </div>
+
+            <div class="ads">
+            <script data-ad-client="ca-pub-7711189315020046" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </div>
 
-            <div class="buttons-container">
-                <button button onclick="changeContent()" type="submit" class="format" > Format</button>
-                <button button onclick="clearContent()" type="submit" class="clear" > Clear</button>
-                <button button onclick="copyToClipboard()" type="submit" class="copy" > Copy</button>
+            <div class="text-content">
+                <h2>Sql to VBA formatter tool.</h2>
+                This is a free tool that will be very useful when you need to automatizate your SQL queries using only Excel (with VBA, of course).
+                <p>Using it is very very simple. You only have to:</p>
+                <p> 1 - Copy your query and paste in the first box;</p>
+                <p> 2 - Click on the format button;</p>
+                <p> 3 - Click on the copy button;</p>
+                <p> 4 - Enjoy your formatted query and share this tool with your friends ;)</p>
             </div>
-            
-            <div class="output-fieldset">
-                <fieldset id="fieldset">
-                    <legend> Formatted Query</legend>
-                    
-                    <div class="textarea-block">
-                        <textarea name="imput" id="converted" rows="6" readonly></textarea>
-                    </div>
-                </fieldset>
-            </div>
-
-
-        </div>
-        <div class="ads">
-        <script data-ad-client="ca-pub-7711189315020046" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </div>
     </body>
 </html>

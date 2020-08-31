@@ -111,11 +111,11 @@
 @media(min-width: 700px){
     #page-landing #container{
         max-width: 100vw;
-        max-height: 100vh;
+        min-height: 100vh;
         column-gap: 87px;
         row-gap: 86px;
         max-width: 1000px;
-        
+        max-height: 2000px;
     }
 
     .imput-fieldset{
@@ -139,6 +139,17 @@
     {
         width: 100%;
    }
+
+   #page-landing #container .ads{
+       padding: 2rem;
+       height: 8rem;
+    }
+   #page-landing #container .text-content{
+       text-align: left;
+
+   }
+
+   
 
 }
 

@@ -40,10 +40,12 @@
     margin: 1rem 1rem 1rem 1rem;
 }
 
-.buttons-container .format{
+.buttons-container .format,
+.buttons-container .clear,
+.buttons-container .copy{
     width: 15rem;
     height: 5rem;
-    
+
     border-radius: 0.8rem;
 
     font: 700 2.4rem Archivo;
@@ -57,9 +59,8 @@
     transition: background 0.25s;
 
     color: var(--color-button-text);
-    
+    margin-left: 2rem;
 }
-
 
 .buttons-container a img{
     width: 4rem;
@@ -68,16 +69,35 @@
 
 .buttons-container .format{
     background: var(--color-primary-lighter);
-    border-color: var(--color-button);
+    border-color: var(--color-format-button);
 }
 
 .buttons-container .format:hover{ /*utiliza o hover como propriedade apenas de quando o mouse está sob o objeto*/
-    background: var(--color-button-light);
+    background: var(--color-format-button-light);
 }
+
+.buttons-container .clear{
+    background: var(--color-primary-lighter);
+    border-color: var(--color-clear-button);
+}
+
+.buttons-container .clear:hover{ /*utiliza o hover como propriedade apenas de quando o mouse está sob o objeto*/
+    background: var(--color-clear-button-light);
+}
+
+.buttons-container .copy{
+    background: var(--color-primary-lighter);
+    border-color: var(--color-copy-button);
+}
+
+.buttons-container .copy:hover{ /*utiliza o hover como propriedade apenas de quando o mouse está sob o objeto*/
+    background: var(--color-copy-button-light);
+}
+
 #fieldset .textarea-block textarea#raw,
-#fieldset .textarea-block textarea#converted
-{
+#fieldset .textarea-block textarea#converted{
     width: 100%;
+    color: black;
 }
 
 

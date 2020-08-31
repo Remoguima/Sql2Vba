@@ -15,14 +15,14 @@
     
             }   
         }
-    }
+    };
 
     function clearContent(){
         document.getElementById('raw').value = ""
         document.getElementById('converted').value = ""
         
 
-    }
+    };
 
     function copyToClipboard(){
         // Get the text field
@@ -36,6 +36,4 @@
         
         // Alert the copied text
         alert("Copied to the clipboard.")
-    }
-//test
-
+    };
